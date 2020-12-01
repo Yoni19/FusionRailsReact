@@ -12,13 +12,9 @@ import ReactDOM from "react-dom";
 
 const App = () => {
   return (
-    <div>Test51515</div>
+    <div>Te15aegkjaegipje</div>
   );
 };
 
-document.addEventListener("DOMContentLoaded", () => {
-  ReactDOM.render(
-    <App name="React" />,
-    document.body.appendChild(document.createElement("div"))
-  );
-});
+export default App;
+ReactDOM.render(<App/>, document.querySelector('#root'))
