@@ -1,0 +1,141 @@
+Started GET "/" for ::1 at 2020-12-01 20:58:52 +0100
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#index as HTML
+DEPRECATION WARNING: render file: should be given the absolute path to a file (called from index at /home/vivien/next/FusionRailsReact/FormYou-API-Rails-main/app/controllers/pages_controller.rb:3)
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 0.0ms | Allocations: 2703)
+
+
+  
+ActionView::MissingTemplate (Missing template public/packs/index.html with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby]}. Searched in:
+  * "/home/vivien/next/FusionRailsReact/FormYou-API-Rails-main/app/views"
+  * "/home/vivien/.rvm/gems/ruby-2.7.2/gems/devise-4.7.3/app/views"
+  * "/home/vivien/.rvm/gems/ruby-2.7.2/gems/actiontext-6.0.3.4/app/views"
+  * "/home/vivien/.rvm/gems/ruby-2.7.2/gems/actionmailbox-6.0.3.4/app/views"
+  * "/home/vivien/next/FusionRailsReact/FormYou-API-Rails-main"
+  * "/"
+):
+  
+app/controllers/pages_controller.rb:3:in `index'
+Started GET "/" for ::1 at 2020-12-01 20:59:27 +0100
+Processing by PagesController#index as HTML
+  Rendering public/packs/index.html
+  Rendered public/packs/index.html (Duration: 7.8ms | Allocations: 5)
+Completed 200 OK in 58ms (Views: 57.6ms | ActiveRecord: 0.0ms | Allocations: 2350)
+
+
+Started GET "/" for ::1 at 2020-12-01 21:02:30 +0100
+Processing by PagesController#index as HTML
+  Rendering public/packs/index.html
+  Rendered public/packs/index.html (Duration: 0.5ms | Allocations: 4)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 1161)
+
+
+Started GET "/" for ::1 at 2020-12-01 21:02:42 +0100
+Processing by PagesController#index as HTML
+DEPRECATION WARNING: render file: should be given the absolute path to a file (called from index at /home/vivien/next/FusionRailsReact/FormYou-API-Rails-main/app/controllers/pages_controller.rb:3)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 987)
+
+
+  
+ActionView::MissingTemplate (Missing template public/packs/index.html with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby]}. Searched in:
+  * "/home/vivien/next/FusionRailsReact/FormYou-API-Rails-main/app/views"
+  * "/home/vivien/.rvm/gems/ruby-2.7.2/gems/devise-4.7.3/app/views"
+  * "/home/vivien/.rvm/gems/ruby-2.7.2/gems/actiontext-6.0.3.4/app/views"
+  * "/home/vivien/.rvm/gems/ruby-2.7.2/gems/actionmailbox-6.0.3.4/app/views"
+  * "/home/vivien/next/FusionRailsReact/FormYou-API-Rails-main"
+  * "/"
+):
+  
+app/controllers/pages_controller.rb:3:in `index'
+Started GET "/" for ::1 at 2020-12-01 21:03:02 +0100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: a414a19babd448e26722
+Version: webpack 4.44.2
+Time: 29614ms
+Built at: 12/01/2020 9:03:43 PM
+                                     Asset       Size       Chunks                         Chunk Names
+                                index.html  326 bytes               [emitted]              
+    js/application-5eb9d8a190edad33e438.js    682 KiB  application  [emitted] [immutable]  application
+js/application-5eb9d8a190edad33e438.js.map    479 KiB  application  [emitted] [dev]        application
+          js/index-799bcbd02e1d32317e80.js      2 MiB        index  [emitted] [immutable]  index
+      js/index-799bcbd02e1d32317e80.js.map    2.2 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-5eb9d8a190edad33e438.js js/application-5eb9d8a190edad33e438.js.map
+Entrypoint index = js/index-799bcbd02e1d32317e80.js js/index-799bcbd02e1d32317e80.js.map
+[./app/javascript/packs/application.js] 10.2 KiB {application} [built]
+[./app/javascript/packs/index.jsx] 1.01 KiB {index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} [built]
+    + 386 hidden modules
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve '@rails/activestorage' in '/home/vivien/next/FusionRailsReact/FormYou-API-Rails-main/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 228:0-31
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve '@rails/ujs' in '/home/vivien/next/FusionRailsReact/FormYou-API-Rails-main/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 226:0-21
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve 'channels' in '/home/vivien/next/FusionRailsReact/FormYou-API-Rails-main/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 230:0-19
+Child HtmlWebpackCompiler:
+     1 asset
+    Entrypoint HtmlWebpackPlugin_0 = __child-HtmlWebpackPlugin_0
+       1 module
+
+
+warning package.json: No license field
+
+  Rendered pages/index.html.erb (Duration: 41306.4ms | Allocations: 1903)
+Completed 200 OK in 41318ms (Views: 41308.0ms | ActiveRecord: 0.0ms | Allocations: 2697)
+
+
+Started GET "/" for ::1 at 2020-12-01 21:04:17 +0100
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+Hash: 9149e9cbf61df26afc42
+Version: webpack 4.44.2
+Time: 7866ms
+Built at: 12/01/2020 9:04:30 PM
+                                     Asset       Size       Chunks                         Chunk Names
+                                index.html  326 bytes               [emitted]              
+    js/application-5eb9d8a190edad33e438.js    682 KiB  application  [emitted] [immutable]  application
+js/application-5eb9d8a190edad33e438.js.map    479 KiB  application  [emitted] [dev]        application
+          js/index-44f010d1a9f20994acc4.js      2 MiB        index  [emitted] [immutable]  index
+      js/index-44f010d1a9f20994acc4.js.map    2.2 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-5eb9d8a190edad33e438.js js/application-5eb9d8a190edad33e438.js.map
+Entrypoint index = js/index-44f010d1a9f20994acc4.js js/index-44f010d1a9f20994acc4.js.map
+[./app/javascript/packs/application.js] 10.2 KiB {application} [built]
+[./app/javascript/packs/index.jsx] 1.01 KiB {index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 905 bytes {application} [built]
+    + 386 hidden modules
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve '@rails/activestorage' in '/home/vivien/next/FusionRailsReact/FormYou-API-Rails-main/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 228:0-31
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve '@rails/ujs' in '/home/vivien/next/FusionRailsReact/FormYou-API-Rails-main/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 226:0-21
+
+ERROR in ./app/javascript/packs/application.js
+Module not found: Error: Can't resolve 'channels' in '/home/vivien/next/FusionRailsReact/FormYou-API-Rails-main/app/javascript/packs'
+ @ ./app/javascript/packs/application.js 230:0-19
+Child HtmlWebpackCompiler:
+     1 asset
+    Entrypoint HtmlWebpackPlugin_0 = __child-HtmlWebpackPlugin_0
+       1 module
+
+
+warning package.json: No license field
+
+  Rendered pages/index.html.erb (Duration: 12860.3ms | Allocations: 1900)
+Completed 200 OK in 12868ms (Views: 12867.5ms | ActiveRecord: 0.0ms | Allocations: 2186)
+
+

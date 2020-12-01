@@ -3,6 +3,8 @@ Rails.application.routes.default_url_options[:host] = 'localhost:3000'
 
 Rails.application.routes.draw do
 
+  root 'pages#index', as: :pages_index
+  get '*path', to: 'pages#index'  
   resources :formations, only: %w[index show create update destroy]
   resources :categories, only: %w[index show create update destroy]
   resources :rooms, only: %w[index show create destroy]
